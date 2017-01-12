@@ -1,0 +1,51 @@
+{
+ "@context": "ons-context.jsonld",
+ "id": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation",
+ "type": "Dataset",
+ "identifier": "CPI",
+ "title": "Consumer Price Inflation",
+ "description": "Measures of inflation data including CPI, CPIH, RPI and RPIJ. These tables complement the Consumer Price Inflation time series datasets available on our website.",
+ "issued": "2016-12-13",
+ "language": "en",
+ "keyword": ["consumer", "prices", "COICOP"],
+ "publisher": {
+    "type": "Organization",
+    "name": "Office of National Statistics",
+    "homepage": "https://www.ons.gov.uk/"
+ },
+ "contactPoint": {
+    "name": "Philip Gooding",
+    "email": "cpi@ons.gsi.gov.uk",
+    "tel": "+44 (0) 1633 456900"
+ },
+ "accessRights": {
+    "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+    "copyrightNotice": "Crown Copyright",
+    "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+    "attributionLink": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation"
+ },
+ "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-M",
+ "landingPage": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation",
+ "theme": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+ "page": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/nov2016",
+ "distribution": [{
+    "title": "Consumer Price Inflation, Excel",
+    "description": "Measures of inflation data including CPI, CPIH, RPI and RPIJ. These tables complement the Consumer Price Inflation time series datasets available on our website.",
+    "issued": "2016-12-13",
+    "language": "en",
+    "accessURL": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation",
+    "downloadURL": "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceinflation/current/consumerpriceinflationdetailedreferencetables.xls",
+    "mediaType": "http://www.iana.org/assignments/media-types/application/vnd.ms-excel",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "rights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation"
+    }
+ }]
+}

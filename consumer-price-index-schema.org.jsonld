@@ -1,0 +1,27 @@
+{
+ "@context":"http://schema.org/",
+ "@type": "Dataset",
+ "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation",
+ "name": "Consumer Price Inflation",
+ "description": "Measures of inflation data including CPI, CPIH, RPI and RPIJ. These tables complement the Consumer Price Inflation time series datasets available on our website.",
+ "datePublished": "2016-12-13",
+ "keywords": ["consumer", "prices", "COICOP"],
+ "creator": {
+    "@type": "Organization",
+    "name": "Office of National Statistics",
+    "url": "https://www.ons.gov.uk/"
+ },
+ "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "name": "Philip Gooding",
+    "email": "cpi@ons.gsi.gov.uk",
+    "telephone": "+44 (0) 1633 456900"
+ },
+ "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+ "distribution": [{
+    "contentURL": "https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceinflation/current/consumerpriceinflationdetailedreferencetables.xls",
+    "fileFormat": "http://www.iana.org/assignments/media-types/application/vnd.ms-excel",
+    "license":  "http://www.nationalarchives.gov.uk/doc/open-government-licence"
+    }]
+}
