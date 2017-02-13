@@ -1,0 +1,86 @@
+{
+ "@context": "ons-context.jsonld",
+ "id": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+ "type": "Dataset",
+ "identifier": "AF001EW",
+ "title": "Members of the Armed Forces by residence type by sex by age",
+ "description": "This dataset provides 2011 Census estimates that classify usual residents aged 16 and over who are members of the armed forces by residence type (household or communal resident), by sex and by age. The estimates are as at census day, 27 March 2011. To protect the confidentiality of individuals personal information, this dataset provides data only for districts that have a minimum of 150 armed forces members (224 districts in total).",
+ "issued": "2015-06-03",
+ "language": "en",
+ "keyword": ["armed forces", "sex", "age"],
+ "publisher": {
+    "type": "Organization",
+    "name": "Office of National Statistics",
+    "homepage": "https://www.ons.gov.uk/"
+ },
+ "contactPoint": {
+    "name": "Peter Stokes",
+    "email": "census.customerservices@ons.gsi.gov.uk",
+    "tel": "+44 (0)1329 444972"
+ },
+ "accessRights": {
+    "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+    "copyrightNotice": "Crown Copyright",
+    "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+    "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+ },
+ "landingPage": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+ "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
+ "dct:source": "2011 Census",
+ "stat:dimension": [
+   { 
+     "type": "qb:Dimension",
+     "name": "Age" 
+   },
+   { 
+     "type": "qb:Dimension",
+     "name": "Residence Type" 
+   },    
+   { 
+     "type": "qb:Dimension",
+     "name": "Sex" 
+   },
+   { 
+     "type": "qb:Dimension",
+     "name": "2011 Statistical Geography Hierarchy" 
+   }],
+ "dct:temporal": "2011",
+ "dct:spatial": "National, sub-national, England and Wales", 
+ "distribution": [{
+    "title": "Members of the Armed Forces by residence type by sex by age, Excel",
+    "description": "This dataset provides 2011 Census estimates that classify usual residents aged 16 and over who are members of the armed forces by residence type (household or communal resident), by sex and by age.",
+    "issued": "2015-06-03",
+    "language": "en",
+    "accessURL": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+    "downloadURL": "...",
+    "mediaType": "http://www.iana.org/assignments/media-types/application/vnd.ms-excel",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "rights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+    }
+ }, {
+    "title": "Members of the Armed Forces by residence type by sex by age, CSV",
+    "description": "This dataset provides 2011 Census estimates that classify usual residents aged 16 and over who are members of the armed forces by residence type (household or communal resident), by sex and by age.",
+    "issued": "2015-06-03",
+    "language": "en",
+    "accessURL": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+    "downloadURL": "...",
+    "mediaType": "http://www.iana.org/assignments/media-types/text/csv",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "rights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+    }
+ }]
+}
