@@ -1,0 +1,90 @@
+[
+  {
+    "id": "D000125",
+    "name": "Sex",
+    "type": "standard",
+    "url": "http://localhost:20099/datasets/AF001EW/dimensions/D000125",
+    "hierarchical": false,
+    "options": [
+      {
+        "id": "DO000153",
+        "name": "Male"
+      },
+      {
+        "id": "DO000154",
+        "name": "Female"
+      }
+    ]
+  },
+  {
+    "id": "D000124",
+    "name": "Residence Type",
+    "type": "standard",
+    "url": "http://localhost:20099/datasets/AF001EW/dimensions/D000124",
+    "hierarchical": false,
+    "options": [
+      {
+        "id": "DO000161",
+        "name": "All categories: Residence Type"
+      },
+      {
+        "id": "DO000162",
+        "name": "Lives in a household"
+      },
+      {
+        "id": "DO000163",
+        "name": "Lives in a communal establishment"
+      }
+    ]
+  },
+  {
+    "id": "D000123",
+    "name": "Age",
+    "type": "standard",
+    "url": "http://localhost:20099/datasets/AF001EW/dimensions/D000123",
+    "hierarchical": false,
+    "options": [
+      {
+        "id": "DO000265",
+        "name": "All categories: Age 16 and over"
+      },
+      {
+        "id": "DO000266",
+        "name": "Age 16 to 24"
+      },
+      {
+        "id": "DO000267",
+        "name": "Age 25 to 34"
+      },
+      {
+        "id": "DO000268",
+        "name": "Age 35 to 49"
+      },
+      {
+        "id": "DO000269",
+        "name": "Age 50 and over"
+      }
+    ]
+  },
+  {
+    "id": "D000126",
+    "name": "2011 Statistical Geography Hierarchy",
+    "type": "geography",
+    "url": "http://localhost:20099/datasets/AF001EW/dimensions/D000126",
+    "hierarchical": true,
+    "options": [
+      {
+        "id": "K04000001",
+        "name": "England and Wales"
+      },
+      {
+        "id": "E92000001",
+        "name": "England"
+      },
+      {
+        "id": "W92000004",
+        "name": "Wales"
+      }
+    ]
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/ns/dcat#",
+    "adms": "http://www.w3.org/ns/adms#",
+    "dc": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "odrs": "http://schema.theodi.org/odrs",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "spdx": "https://spdx.org/rdf/terms/#",
+    "stat": "http://data.europa.eu/(xyz)/statdcat-ap/",   
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "type": "@type",
+    "id": "@id",
+    "title": "dc:title",
+    "description": "dc:description",
+    "publisher": "dc:publisher",
+    "issued": {
+      "@id": "dc:issued",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "modified": {
+      "@id": "dc:modified",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "RightsStatement": {
+        "@id": "dc:RightsStatement"
+    },
+    "Organization": {
+        "@id": "org:Organization"
+    },
+    "identifier": "dc:identifier",
+    "language": "dc:language",
+    "temporal": "dc:temporal",
+    "spatial": "dc:spatial",
+    "accrualPeriodicity": {
+       "@id": "dc:accrualPeriodicity",
+       "@type": "@id"
+    },
+    "accessRights": "dc:accessRights",
+    "format": "dc:format",
+    "page": "foaf:page",
+    "hasVersion": "dc:hasVersion",
+    "isVersionOf": "dc:isVersionOf",
+    "name": "skos:prefLabel",
+    "relation": {
+       "@id": "dc:relation",
+       "@type": "@id"
+    },
+    "versionInfo": "owl:versionInfo",
+    "versionNotes": "adms:versionNotes",
+    "attribute": "stat:attribute",
+    "dimension": "stat:dimension",
+    "unitMeasure": "stat:unitMeasure",
+    "license": "dc:license",
+    "rights": "dc:rights",
+    "downloadURL": {
+      "@id": "dcat:downloadURL",
+      "@type": "@id"
+    },
+    "mediaType": {
+      "@id": "dcat:mediaType",
+      "@type": "@id"
+    },
+    "accessURL": {
+      "@id": "dcat:accessURL",
+      "@type": "@id"
+    },
+    "checksum": "spdx:checksum",
+    "dataLicense": {
+      "@id": "odrs:dataLicense",
+      "@type": "@id"
+    },
+    "contentLicense": {
+      "@id": "odrs:contentLicense",
+      "@type": "@id"
+    },
+    "attributionText": "odrs:attributionText",
+    "copyrightNotice": "odrs:copyrightNotice",
+    "reuserGuidelines": {
+      "@id": "odrs:reuserGuidelines",
+      "@type": "@id"
+    },
+    "attributionLink": {
+      "@id": "odrs:attributionLink",
+      "@type": "@id"
+    },
+    "homepage": {
+      "@id": "foaf:homepage",
+      "@type": "@id"
+    },
+    "email": "vcard:email",
+    "tel": "vcard:tel",
+    "theme": {
+       "@id": "dcat:theme",
+       "@type": "@id"
+    },
+    "methodology": {
+        "@id": "foaf:page",
+        "@type": "@id"
+    },
+    "associatedPublications": {
+        "@id": "foaf:page",
+        "@type": "@id"
+    }
+  } 
+}
+
+

@@ -1,0 +1,268 @@
+[
+  {
+    "id": "SP00001",
+    "name": "Special aggregate",
+    "type": "classification",
+    "hierarchical": true,
+    "url": "http://localhost:20099/datasets/CPI15/dimensions/SP00001",
+    "options": [
+      {
+        "id": "FOOD0001",
+        "name": "(01) Food and non-alcoholic beverages"
+      },
+      {
+        "id": "OPT02",
+        "name": "Food"
+      },
+      {
+        "id": "OPT03",
+        "name": "Bread and cereals"
+      },
+      {
+        "id": "OPT04",
+        "name": "Meat"
+      },
+      {
+        "id": "OPT05",
+        "name": "Fish"
+      },
+      {
+        "id": "OPT06",
+        "name": "Milk, cheese and eggs"
+      },
+      {
+        "id": "OPT07",
+        "name": "Oils and fats"
+      },
+      {
+        "id": "OPT08",
+        "name": "Fruit"
+      },
+      {
+        "id": "HEALTH0002",
+        "name": "(02) Health"
+      },
+      {
+        "id": "OPT02",
+        "name": "Medical products, appliances and equipment"
+      },
+      {
+        "id": "OPT03",
+        "name": "Pharmaceutical products"
+      },
+      {
+        "id": "OPT04",
+        "name": "Other medical and therapeutic equipment"
+      },
+      {
+        "id": "OPT05",
+        "name": "Out-patient services"
+      },
+      {
+        "id": "OPT06",
+        "name": "Medical services and paramedical services"
+      },
+      {
+        "id": "OPT07",
+        "name": "Dental services"
+      },
+      {
+        "id": "OPT08",
+        "name": "In-patient service"
+      },
+      {
+        "id": "OPT09",
+        "name": "Medical and paramedic services"
+      }
+    ]
+  },
+  {
+    "id": "T000111",
+    "name": "Time",
+    "type": "time",
+    "hierarchical": true,
+    "url": "http://localhost:20099/datasets/CPI15/dimensions/T000111",
+    "options": [
+      {
+        "id": "OPT02",
+        "name": "February 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "March 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "April 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "May 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "June 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "July 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "August 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "September 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "October 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "November 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "December 2013"
+      },
+      {
+        "id": "OPT02",
+        "name": "January 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "February 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "March 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "April 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "May 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "June 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "July 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "August 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "September 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "October 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "November 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "December 2014"
+      },
+      {
+        "id": "OPT02",
+        "name": "January 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "February 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "March 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "April 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "May 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "June 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "July 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "August 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "September 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "October 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "November 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "December 2015"
+      },
+      {
+        "id": "OPT02",
+        "name": "January 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "February 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "March 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "April 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "May 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "June 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "July 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "August 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "September 2016"
+      },
+      {
+        "id": "OPT02",
+        "name": "October 2016"
+      }
+    ]
+  }
+]

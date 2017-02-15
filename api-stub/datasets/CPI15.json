@@ -1,0 +1,40 @@
+{
+  "id": "CPI15",
+  "customerFacingId": "",
+  "title": "CPI15 Consumer Prices Index (COICOP).",
+  "url": "http://localhost:20099/datasets/CPI15",
+  "metadata": {
+    "description": "Consumer Price Index statistics by Time and Special Aggregate (type of economic activity). This dataset shows the movement of prices over the last five years within the UK economy, broken down by month and various classifications of economic activity. The economic classifications are derived from the COICOP (Classification Of Individual Consumption by Purpose) list.",
+    "contact": {
+      "name": "James Tucker",
+      "email": "cpi@ons.gsi.gov.uk",
+      "phone": "+44 (0)1633 456900"
+    },
+    "releaseDate": "17 January 2017",
+    "nextReleaseDate": "14 February 2017",
+    "nationalStatistics": true,
+    "associatedPublications": null,
+    "methodology": [
+      {
+        "title": "Consumer Price Inflation (includes all 4 indices—CPI, CPIH, RPI and RPIJ)",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/qmis/consumerpriceinflationqmi"
+      }
+    ]
+  },
+  "dimensions": [
+    {
+      "id": "SP00001",
+      "name": "Special aggregate",
+      "type": "classification",
+      "url": "http://localhost:20099/datasets/CPI15/dimensions/SP00001",
+      "hierarchical": true
+    },
+    {
+      "id": "T000111",
+      "name": "Time",
+      "type": "time",
+      "url": "http://localhost:20099/datasets/CPI15/dimensions/T000111",
+      "hierarchical": true
+    }
+  ]
+}
