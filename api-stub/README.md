@@ -51,6 +51,13 @@ yet covered here.
 * All resources have a unique URI
 * Datasets are organised into a Collection which can be presented as a series of partial views
 
+## Findings
+
+* Relatively simple changes required to existing JSON to allow data to be valid JSON-LD
+* Existing URI structure provides good framework for a Linked Data view of the data, a few new routes required, e.g. for entries in code lists, the context, etc
+* Using a custom JSON-LD context gives plenty of flexibility to allow mapping of preferred local names for properties and types to their standard URIs. This has been used in a few places to just map existing properties names to standard terms
+* Overall this look like a relatively straight-forward to provide a 4-star approach. The impacts on both the back and front end should be relatively small as the same data is being exchanged
+
 ## Important Changes
 
 * The `id` values have been given as relative URLs, but in the actual API they'd be fully-qualified
@@ -65,18 +72,21 @@ yet covered here.
 
 * `/terms.json` -- a new ONS vocabulary has been defined to define some custom terms which aren't covered by existing vocabularies. Every term has a unique URI. This document declares entirely new properties whereas the context document maps JSON object keys to URIs. For example `methodology` and `associatedPublications` have been mapped to existing terms (`foaf:page` and `dct:related` respectively). Whereas `nationalStatistic` is a new property which is first defined in `terms.json` and then mapped to a simple name in the context.
 
-## Summary
+## Things that are missing
 
-* Relatively simple changes required to existing JSON to map to JSON-LD
-* Existing URI structure provides good framework for a Linked Data view of the data
-* JSON-LD context gives some flexibility to map preferred local names for properties/types to their standard URIs. So, for example can use meaningful names for still preserve semantics
-* Overall relatively straight-forward to provide a 4-star approach
+There are still some items to include. For example, the stub API currently doesn't cover the attributes of a dataset, e.g:
 
-## Some issues to consider
+* unit of measure
+* population
+* data markings
 
-* At the moment am using `dc:type` to capture what was originally the `type` for hierarchies, etc E.g. "geography", "classification", etc. Am not clear where these are used in the Front End, so have just kept them in place but used more appropriate key name. 
+Some of these will be associated with extra code lists.
 
-* Similarly, I wasn't clear on what `hierarchical: true` meant. I've added this as a custom property of a dimension for now, but might be better modelled differently. Strictly speaking its the code list associated with the dimension that is hierarchical not the dimension itself
+## Some issues to consider further
+
+* At the moment am using `dc:type` to capture what was originally the `type` for hierarchies, etc E.g. "geography", "classification", etc. I wasn't clear where these are used in the Front End, so have just kept them in place but used more appropriate key name. 
+
+* Similarly, I wasn't clear on what `hierarchical: true` meant. I've added this as a custom property of a dimension for now, but it might be better modelled differently. Strictly speaking its the code list associated with the dimension that is hierarchical not the dimension itself. These distinctions will be important if/when dimensions are standardised across datasets, but the code lists might vary. E.g. two datasets might have an "Age" dimension but use different code lists with ranges.
 
 * Some properties, e.g. `temporal` are given as simple strings, but might be better if they were URIs, e.g. links to relevant items in the administrative geography
 
