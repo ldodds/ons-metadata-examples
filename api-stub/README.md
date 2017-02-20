@@ -32,9 +32,10 @@ that here. The main difference for list views is defining the response as a `Col
 Context changes:
     
 * Added `hydra`
-* TODO: add extra custom terms, e.g. for paging and short-cuts?
 * Added `associatedPublications` - might be better as dct:related than foaf:page?
 * Added `methodology` - can be mapped to foaf:page for now?
+
+* TODO: add extra custom terms, e.g. for paging and short-cuts?
 * TODO: next release date
 * TODO: national statistics
 * TODO: XKOS terms for hierarchies http://www.ddialliance.org/Specification/RDF/XKOS
@@ -42,4 +43,5 @@ Context changes:
 * TODO other short cuts
 * TODO `hierarchical`: `false` ?
 * TODO: dimension type: "standard", "classification", "time", perhaps use role?
-* TODO: topConcept doesn't feel right
+* TODO: topConcept doesn't feel right, `xkos:belongsTo` is better
+* TODO: depth can be handled by `xkos:ClassificationLevel` and `xkos:depth`? Although requires jumping through some hoops   

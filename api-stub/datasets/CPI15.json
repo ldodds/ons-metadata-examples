@@ -1,40 +1,93 @@
 {
-  "id": "CPI15",
-  "customerFacingId": "",
-  "title": "CPI15 Consumer Prices Index (COICOP).",
-  "url": "http://localhost:20099/datasets/CPI15",
-  "metadata": {
-    "description": "Consumer Price Index statistics by Time and Special Aggregate (type of economic activity). This dataset shows the movement of prices over the last five years within the UK economy, broken down by month and various classifications of economic activity. The economic classifications are derived from the COICOP (Classification Of Individual Consumption by Purpose) list.",
-    "contact": {
-      "name": "James Tucker",
-      "email": "cpi@ons.gsi.gov.uk",
-      "phone": "+44 (0)1633 456900"
-    },
-    "releaseDate": "17 January 2017",
-    "nextReleaseDate": "14 February 2017",
-    "nationalStatistics": true,
-    "associatedPublications": null,
-    "methodology": [
-      {
-        "title": "Consumer Price Inflation (includes all 4 indices—CPI, CPIH, RPI and RPIJ)",
-        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/qmis/consumerpriceinflationqmi"
-      }
-    ]
+  "@context": "/ons-context.jsonld",
+  "id": "/datasets/CPI15",
+  "type": "Dataset",
+  "identifier": "CPI15",
+  "title": "Consumer Prices Index (COICOP)",
+  "description": "Consumer Price Index statistics by Time and Special Aggregate (type of economic activity). This dataset shows the movement of prices over the last five years within the UK economy, broken down by month and various classifications of economic activity. The economic classifications are derived from the COICOP (Classification Of Individual Consumption by Purpose) list.",
+  "issued": "2017-01-17",
+  "language": "en",
+  "keyword": ["consumer", "prices", "COICOP"],
+  "publisher": {
+    "type": "Organization",
+    "name": "Office of National Statistics",
+    "homepage": "https://www.ons.gov.uk/"
   },
-  "dimensions": [
+  "contactPoint": {
+    "name": "James Tucker",
+    "email": "cpi@ons.gsi.gov.uk",
+    "tel": "+44 (0)1633 456900"
+  },
+  "accessRights": {
+    "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+    "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+    "copyrightNotice": "Crown Copyright",
+    "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+    "attributionLink": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation"
+  },
+  "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-M",
+  "landingPage": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+  "theme": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+  "methodology": {
+    "id": "https://www.ons.gov.uk/economy/inflationandpriceindices/qmis/consumerpriceinflationqmi",
+    "title": "Consumer Price Inflation (includes all 4 indices—CPI, CPIH, RPI and RPIJ)"
+  },
+  "associatedPublications": [
+    "http://localhost:20099/datasets/AF002",
+    "http://localhost:20099/datasets/AF003",
+    "http://localhost:20099/datasets/AF004"
+  ],
+  "stat:dimension": [
     {
       "id": "SP00001",
       "name": "Special aggregate",
-      "type": "classification",
-      "url": "http://localhost:20099/datasets/CPI15/dimensions/SP00001",
-      "hierarchical": true
+      "type": "qb:Dimension",
+      "id": "/datasets/CPI15/dimensions/SP00001"
     },
     {
-      "id": "T000111",
+      "identifier": "T000111",
       "name": "Time",
-      "type": "time",
-      "url": "http://localhost:20099/datasets/CPI15/dimensions/T000111",
-      "hierarchical": true
+      "type": "qb:Dimension",
+      "id": "/datasets/CPI15/dimensions/T000111"
     }
-  ]
+  ],
+  "distribution": [
+    {
+      "title": "Consumer Prices Index (COICOP), Excel",
+      "description": "...",
+      "issued": "2017-01-17",
+      "language": "en",
+      "accessURL": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+      "downloadURL": "...",
+      "mediaType": "http://www.iana.org/assignments/media-types/application/vnd.ms-excel",
+      "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+      "rights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+      }
+   }, {
+      "title": "Consumer Prices Index (COICOP), Excel",
+      "description": "...",
+      "issued": "2017-01-17",
+      "language": "en",
+      "accessURL": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+      "downloadURL": "...",
+      "mediaType": "http://www.iana.org/assignments/media-types/text/csv",
+      "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+      "rights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+      }
+    }
+ ]     
 }
+
