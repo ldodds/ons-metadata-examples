@@ -5,7 +5,9 @@
     "dc": "http://purl.org/dc/terms/",
     "dcat": "http://www.w3.org/ns/dcat#",
     "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
     "odrs": "http://schema.theodi.org/odrs",
+    "ons": "/terms#",
     "org": "http://www.w3.org/ns/org#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "qb": "http://purl.org/linked-data/cube#",
@@ -17,11 +19,58 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "vcard": "http://www.w3.org/2006/vcard/ns#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
     "type": "@type",
     "id": "@id",
+    "RightsStatement": {
+        "@id": "dc:RightsStatement"
+    },
+    "Dimension": {
+        "@id": "qb:Dimension"
+    },
+    "ConceptScheme": {
+        "@id": "skos:ConceptScheme"
+    },
+    "Concept": {
+        "@id": "skos:Concept"
+    },
+    "Organization": {
+        "@id": "org:Organization"
+    },
     "title": "dc:title",
     "description": "dc:description",
     "publisher": "dc:publisher",
+    "identifier": "dc:identifier",
+    "language": "dc:language",
+    "temporal": "dc:temporal",
+    "spatial": "dc:spatial",
+    "accessRights": "dc:accessRights",
+    "format": "dc:format",
+    "page": "foaf:page",
+    "hasVersion": "dc:hasVersion",
+    "isVersionOf": "dc:isVersionOf",
+    "name": "skos:prefLabel",
+    "versionInfo": "owl:versionInfo",
+    "versionNotes": "adms:versionNotes",
+    "attribute": "stat:attribute",
+    "dimension": "stat:dimension",
+    "unitMeasure": "stat:unitMeasure",
+    "license": "dc:license",
+    "rights": "dc:rights",
+    "attributionText": "odrs:attributionText",
+    "copyrightNotice": "odrs:copyrightNotice",
+    "checksum": "spdx:checksum",
+    "email": "vcard:email",
+    "tel": "vcard:tel",
+    "nationalStatistic": "ons:nationalStatistic",
+    "source": "dc:source",
+    "dimension": "stat:dimension",
+    "codeList": "qb:codeList",
+    "notation": "skos:notation",
+    "narrower": "skos:narrower",
+    "broader": "skos:broader",
+    "hierarchical": "ons:hierarchical",
+    "level": "xkos:depth",    
     "issued": {
       "@id": "dc:issued",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
@@ -30,37 +79,14 @@
       "@id": "dc:modified",
       "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
-    "RightsStatement": {
-        "@id": "dc:RightsStatement"
-    },
-    "Organization": {
-        "@id": "org:Organization"
-    },
-    "identifier": "dc:identifier",
-    "language": "dc:language",
-    "temporal": "dc:temporal",
-    "spatial": "dc:spatial",
     "accrualPeriodicity": {
        "@id": "dc:accrualPeriodicity",
        "@type": "@id"
     },
-    "accessRights": "dc:accessRights",
-    "format": "dc:format",
-    "page": "foaf:page",
-    "hasVersion": "dc:hasVersion",
-    "isVersionOf": "dc:isVersionOf",
-    "name": "skos:prefLabel",
     "relation": {
        "@id": "dc:relation",
        "@type": "@id"
     },
-    "versionInfo": "owl:versionInfo",
-    "versionNotes": "adms:versionNotes",
-    "attribute": "stat:attribute",
-    "dimension": "stat:dimension",
-    "unitMeasure": "stat:unitMeasure",
-    "license": "dc:license",
-    "rights": "dc:rights",
     "downloadURL": {
       "@id": "dcat:downloadURL",
       "@type": "@id"
@@ -73,7 +99,6 @@
       "@id": "dcat:accessURL",
       "@type": "@id"
     },
-    "checksum": "spdx:checksum",
     "dataLicense": {
       "@id": "odrs:dataLicense",
       "@type": "@id"
@@ -82,8 +107,6 @@
       "@id": "odrs:contentLicense",
       "@type": "@id"
     },
-    "attributionText": "odrs:attributionText",
-    "copyrightNotice": "odrs:copyrightNotice",
     "reuserGuidelines": {
       "@id": "odrs:reuserGuidelines",
       "@type": "@id"
@@ -96,11 +119,23 @@
       "@id": "foaf:homepage",
       "@type": "@id"
     },
-    "email": "vcard:email",
-    "tel": "vcard:tel",
     "theme": {
        "@id": "dcat:theme",
        "@type": "@id"
+    },
+    "methodology": {
+        "@id": "foaf:page",
+        "@type": "@id"
+    },
+    "associatedPublications": {
+        "@id": "dc:related",
+        "@type": "@id"
+    },
+    "levelType": {
+        "@reverse": "skos:member"
+    },
+    "inScheme": {
+        "@reverse": "skos:inScheme"
     }
   } 
 }
