@@ -1,33 +1,33 @@
 {
   "@context": "/ons-context.jsonld",
   "id": "/datasets/AF001EW",
-  "stat:dimension": [
+  "dimension": [
     { 
       "id": "/datasets/AF001EW/dimensions/D000123",
       "identifier": "D000123",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Age",
-      "qb:codeList": {
+      "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
           {
-            "skos:notation": "DO000265",
+            "notation": "DO000265",
             "name": "All categories: Age 16 and over"
           },
           {
-            "skos:notation": "DO000266",
+            "notation": "DO000266",
             "name": "Age 16 to 24"
           },
           {
-            "skos:notation": "DO000267",
+            "notation": "DO000267",
             "name": "Age 25 to 34"
           },
           {
-            "skos:notation": "DO000268",
+            "notation": "DO000268",
             "name": "Age 35 to 49"
           },
           {
-            "skos:notation": "DO000269",
+            "notation": "DO000269",
             "name": "Age 50 and over"
           }
         ]
@@ -36,21 +36,21 @@
     { 
       "id": "/datasets/AF001EW/dimensions/D000124",
       "identifier": "D000124",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Residence Type",
-      "qb:codeList": {
+      "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
           {
-            "skos:notation": "DO000161",
+            "notation": "DO000161",
             "name": "All categories: Residence Type"
           },
           {
-            "skos:notation": "DO000162",
+            "notation": "DO000162",
             "name": "Lives in a household"
           },
           {
-            "skos:notation": "DO000163",
+            "notation": "DO000163",
             "name": "Lives in a communal establishment"
           }
         ]
@@ -59,17 +59,17 @@
     { 
       "id": "/datasets/AF001EW/dimensions/D000125",
       "identifier": "D000125",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Sex",
-      "qb:codeList": {
+      "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
           {
-            "skos:notation": "DO000153",
+            "notation": "DO000153",
             "name": "Male"
           },
           {
-            "skos:notation": "DO000154",
+            "notation": "DO000154",
             "name": "Female"
           }
         ]
@@ -78,21 +78,21 @@
     { 
       "id": "/datasets/AF001EW/dimensions/D000126",
       "identifier": "D000126",    
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "2011 Statistical Geography Hierarchy",
-      "qb:codeList": {
+      "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
           {
-            "skos:notation": "K04000001",
+            "notation": "K04000001",
             "name": "England and Wales"
           },
           {
-            "skos:notation": "E92000001",
+            "notation": "E92000001",
             "name": "England"
           },
           {
-            "skos:notation": "W92000004",
+            "notation": "W92000004",
             "name": "Wales"
           }
         ]

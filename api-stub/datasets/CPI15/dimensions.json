@@ -1,81 +1,81 @@
 {
   "@context": "/ons-context.jsonld",
   "id": "/datasets/AF001EW",
-  "stat:dimension": [
+  "dimension": [
     { 
       "id": "/datasets/CPI15/dimensions/SP00001",
       "identifier": "SP00001",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Special aggregate",
-      "qb:codeList": {
+      "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
           {
-            "skos:notation": "FOOD0001",
+            "notation": "FOOD0001",
             "name": "(01) Food and non-alcoholic beverages"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "Food"
           },
           {
-            "skos:notation": "OPT03",
+            "notation": "OPT03",
             "name": "Bread and cereals"
           },
           {
-            "skos:notation": "OPT04",
+            "notation": "OPT04",
             "name": "Meat"
           },
           {
-            "skos:notation": "OPT05",
+            "notation": "OPT05",
             "name": "Fish"
           },
           {
-            "skos:notation": "OPT06",
+            "notation": "OPT06",
             "name": "Milk, cheese and eggs"
           },
           {
-            "skos:notation": "OPT07",
+            "notation": "OPT07",
             "name": "Oils and fats"
           },
           {
-            "skos:notation": "OPT08",
+            "notation": "OPT08",
             "name": "Fruit"
           },
           {
-            "skos:notation": "HEALTH0002",
+            "notation": "HEALTH0002",
             "name": "(02) Health"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "Medical products, appliances and equipment"
           },
           {
-            "skos:notation": "OPT03",
+            "notation": "OPT03",
             "name": "Pharmaceutical products"
           },
           {
-            "skos:notation": "OPT04",
+            "notation": "OPT04",
             "name": "Other medical and therapeutic equipment"
           },
           {
-            "skos:notation": "OPT05",
+            "notation": "OPT05",
             "name": "Out-patient services"
           },
           {
-            "skos:notation": "OPT06",
+            "notation": "OPT06",
             "name": "Medical services and paramedical services"
           },
           {
-            "skos:notation": "OPT07",
+            "notation": "OPT07",
             "name": "Dental services"
           },
           {
-            "skos:notation": "OPT08",
+            "notation": "OPT08",
             "name": "In-patient service"
           },
           {
-            "skos:notation": "OPT09",
+            "notation": "OPT09",
             "name": "Medical and paramedic services"
           }
         ]
@@ -84,189 +84,189 @@
    { 
       "id": "/datasets/CPI15/dimensions/T000111",
       "identifier": "T000111",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Time",
-      "qb:codeList": {
+      "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "February 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "March 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "April 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "May 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "June 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "July 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "August 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "September 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "October 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "November 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "December 2013"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "January 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "February 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "March 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "April 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "May 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "June 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "July 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "August 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "September 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "October 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "November 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "December 2014"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "January 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "February 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "March 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "April 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "May 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "June 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "July 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "August 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "September 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "October 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "November 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "December 2015"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "January 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "February 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "March 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "April 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "May 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "June 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "July 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "August 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "September 2016"
           },
           {
-            "skos:notation": "OPT02",
+            "notation": "OPT02",
             "name": "October 2016"
           }        
         ]

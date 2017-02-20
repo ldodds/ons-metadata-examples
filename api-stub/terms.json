@@ -2,6 +2,9 @@
   "@context": [ 
       "/ons-context.jsonld",
       {
+         "defines": {
+             "@reverse": "rdfs:isDefinedBy"
+         },
          "domain": { 
              "@id": "rdfs:domain",
              "@type": "@id"
@@ -22,7 +25,17 @@
         "rdfs:comment": "Indicates whether a Dataset is a national statistic",
         "domain": "Dataset",
         "range": "xsd:boolean"
+      },
+      { 
+        "id": "ons:nextReleaseDate",
+        "type": "owl:DatatypeProperty",
+        "rdfs:label": "next release date",
+        "rdfs:subPropertyOf": "dct:date",
+        "rdfs:comment": "Expected next release date for the dataset",
+        "domain": "Dataset",
+        "range": "xsd:date"
       }
+      
   ]
 }
   

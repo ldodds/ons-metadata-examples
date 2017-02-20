@@ -7,6 +7,7 @@
   "description": "This dataset provides 2011 Census estimates that classify usual residents aged 16 and over who are members of the armed forces by residence type (household or communal resident), by sex and by age. The estimates are as at census day, 27 March 2011. To protect the confidentiality of individuals personal information, this dataset provides data only for districts that have a minimum of 150 armed forces members (224 districts in total).",
   "nationalStatistic": true,
   "issued": "2015-06-03",
+  "nextReleaseDate": nil,
   "language": "en",
   "keyword": ["armed forces", "sex", "age"],
   "publisher": {
@@ -29,32 +30,32 @@
   },
   "landingPage": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
   "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
-  "dct:source": "2011 Census",
-  "dct:temporal": "2011",
-  "dct:spatial": "National, sub-national, England and Wales",
-  "stat:dimension": [
+  "source": "2011 Census",
+  "temporal": "2011",
+  "spatial": "National, sub-national, England and Wales",
+  "dimension": [
     { 
       "id": "/datasets/AF001EW/dimensions/D000123",
       "identifier": "D000123",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Age" 
     },
     { 
       "id": "/datasets/AF001EW/dimensions/D000124",
       "identifier": "D000124",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Residence Type" 
     },    
     { 
       "id": "/datasets/AF001EW/dimensions/D000125",
       "identifier": "D000125",
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "Sex" 
     },
     { 
       "id": "/datasets/AF001EW/dimensions/D000126",
       "identifier": "D000126",    
-      "type": "qb:Dimension",
+      "type": "Dimension",
       "name": "2011 Statistical Geography Hierarchy" 
     }
   ],

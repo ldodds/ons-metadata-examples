@@ -35,6 +35,15 @@
     "RightsStatement": {
         "@id": "dc:RightsStatement"
     },
+    "Dimension": {
+        "@id": "qb:Dimension"
+    },
+    "ConceptScheme": {
+        "@id": "skos:ConceptScheme"
+    },
+    "Concept": {
+        "@id": "skos:Concept"
+    },
     "Organization": {
         "@id": "org:Organization"
     },
@@ -112,7 +121,13 @@
         "@id": "dct:related",
         "@type": "@id"
     },
-    "nationalStatistic": "ons:nationalStatistic"
+    "nationalStatistic": "ons:nationalStatistic",
+    "source": "dct:source",
+    "dimension": "stat:dimension",
+    "codeList": "qb:codeList",
+    "notation": "skos:notation",
+    "narrower": "skos:narrower",
+    "broader": "skos:broader"
   } 
 }
 
