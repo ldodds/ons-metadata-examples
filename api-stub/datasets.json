@@ -12,7 +12,7 @@
      "description": "This dataset provides 2011 Census estimates that classify usual residents aged 16 and over who are members of the armed forces by residence type (household or communal resident), by sex and by age. The estimates are as at census day, 27 March 2011. To protect the confidentiality of individuals personal information, this dataset provides data only for districts that have a minimum of 150 armed forces members (224 districts in total).",
      "nationalStatistic": true,
      "issued": "2015-06-03",
-     "nextReleaseDate": nil,
+     "nextReleaseDate": null,
      "language": "en",
      "keyword": ["armed forces", "sex", "age"],
      "publisher": {

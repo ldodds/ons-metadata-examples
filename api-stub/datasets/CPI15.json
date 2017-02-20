@@ -21,6 +21,7 @@
     "tel": "+44 (0)1633 456900"
   },
   "accessRights": {
+    "id": "_:rights",
     "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
     "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
     "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
@@ -65,12 +66,7 @@
       "mediaType": "http://www.iana.org/assignments/media-types/application/vnd.ms-excel",
       "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
       "rights": {
-        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
-        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
-        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
-        "copyrightNotice": "Crown Copyright",
-        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
-        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+         "id": "_:rights",
       }
    }, {
       "title": "Consumer Prices Index (COICOP), Excel",
@@ -82,12 +78,7 @@
       "mediaType": "http://www.iana.org/assignments/media-types/text/csv",
       "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
       "rights": {
-        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
-        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
-        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
-        "copyrightNotice": "Crown Copyright",
-        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
-        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+          "id": "_:rights",
       }
     }
  ]     

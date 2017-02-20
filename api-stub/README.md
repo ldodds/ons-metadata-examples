@@ -26,7 +26,7 @@ The JSON files in this directory roughly correspond to the sample data included 
 The original files have been updated to be valid JSON-LD documents. In practice this has involved:
 
 * Declaring the [mappings](ons-context.json) to standard vocabularies by adding a `@context` key
-* Adding unique URIs (`id`) to every resource 
+* Adding unique URIs (`id`) to every resource (replacing `url` where it was provided) 
 * Changing to use standard property and type names
 * Simplifying structure in a few places, e.g. removing of `metadata` objects
 * Use ISO 8601 for dates
@@ -36,6 +36,9 @@ Some of the key differences have been spelt out below.
 The goal has been to try to represent all of the existing test data using standard vocabularies. No attempt has been made to assess impact on, e.g. the 
 current prototype front-end. The assumption is that if the data is still present then it should be relatively easy to adapted the front-end to 
 use the new structure.
+
+Note: as this is just an initial proof-of-concept, it's possible that there may be some elements, e.g. added during recent development, which aren't 
+yet covered here.
 
 ## Data model notes
 
@@ -80,16 +83,15 @@ use the new structure.
 * There aren't any existing standards for search results/collections, although [Hydra has support for describing views](http://www.hydra-cg.com/spec/latest/core/#collections). Have used 
 that here. The main difference for list views is defining the response as a `Collection` with the paging parameters, etc as a `view` on that collection. Makes the semantics clearer, but keeps the essential items available.
 
+* Not clear what `hierarchical`: `false` is on dimensions?
+* Not clear what type is on dimension, e.g. "standard", "classification", "time". perhaps use role? or dct:type
+
 ## Additional Notes
 
-Context changes:
-    
 * Hydra keys
+
 * TODO: add extra custom terms, e.g. for paging. New terms: `startIndex`, `itemsPerPage`, `page`, `totalPages`
 
-* TODO: dimension type: "standard", "classification", "time", perhaps use role? or dct:type
-
-* TODO `hierarchical`: `false` ?
 * TODO: `levelType`
 * TODO: hasTopConcept doesn't feel right, `xkos:belongsTo` is better
 * TODO: depth can be handled by `xkos:ClassificationLevel` and `xkos:depth`? Although requires jumping through some hoops   
