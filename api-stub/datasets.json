@@ -1,5 +1,6 @@
 {
   "@context": "/ons-context.jsonld",
+  "id": "/datasets",
   "type": "hydra:Collection",
   "hydra:totalItems": "2",
   "hydra:member": [

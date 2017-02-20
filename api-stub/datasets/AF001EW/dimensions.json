@@ -9,7 +9,7 @@
       "name": "Age",
       "qb:codeList": {
         "id": "/code-lists/...",
-        "skos:topConcept": [
+        "skos:hasTopConcept": [
           {
             "skos:notation": "DO000265",
             "name": "All categories: Age 16 and over"
@@ -40,7 +40,7 @@
       "name": "Residence Type",
       "qb:codeList": {
         "id": "/code-lists/...",
-        "skos:topConcept": [
+        "skos:hasTopConcept": [
           {
             "skos:notation": "DO000161",
             "name": "All categories: Residence Type"
@@ -63,7 +63,7 @@
       "name": "Sex",
       "qb:codeList": {
         "id": "/code-lists/...",
-        "skos:topConcept": [
+        "skos:hasTopConcept": [
           {
             "skos:notation": "DO000153",
             "name": "Male"
@@ -82,7 +82,7 @@
       "name": "2011 Statistical Geography Hierarchy",
       "qb:codeList": {
         "id": "/code-lists/...",
-        "skos:topConcept": [
+        "skos:hasTopConcept": [
           {
             "skos:notation": "K04000001",
             "name": "England and Wales"

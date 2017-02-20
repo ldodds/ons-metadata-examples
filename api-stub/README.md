@@ -15,7 +15,7 @@ adapt if this is chosen as a useful step forward.
 
 * `/ons-context.json` -- (NEW) definitions of the properties and classes used in the responses. This defines the mapping of keys/values in the JSON to existing standards. Referenced from response docs
 * `/datasets.json` -- paged view of collection of datasets
-* ...
+* `/code-lists` -- page view of collection of code-lists used in dimensions
 
 ## General Comments Notes
 
@@ -28,12 +28,15 @@ Some notes on aligning this with JSON-LD.
 * There aren't any existing standards for search results/collections, although [Hydra has support for describing views](http://www.hydra-cg.com/spec/latest/core/#collections). Have used 
 that here. The main difference for list views is defining the response as a `Collection` with the paging parameters, etc as a `view` on that collection. Makes the semantics clearer and but keeps the essential items available. But (for now) have ignored some terms: `startIndex`, `itemsPerPage`, `page`, `totalPages`
 
-## 
+## Notes
+
 Context changes:
     
 * Added `hydra`
 * Added `associatedPublications` - might be better as dct:related than foaf:page?
 * Added `methodology` - can be mapped to foaf:page for now?
+* Changed `/hierarchies` to `/code-lists`
+* Using dct:type to capture the internal types, "geography", "classification", etc
 
 * TODO: add extra custom terms, e.g. for paging and short-cuts?
 * TODO: next release date
@@ -41,7 +44,11 @@ Context changes:
 * TODO: XKOS terms for hierarchies http://www.ddialliance.org/Specification/RDF/XKOS
 * TODO: source, temporal, spatial mappings
 * TODO other short cuts
-* TODO `hierarchical`: `false` ?
 * TODO: dimension type: "standard", "classification", "time", perhaps use role?
 * TODO: topConcept doesn't feel right, `xkos:belongsTo` is better
 * TODO: depth can be handled by `xkos:ClassificationLevel` and `xkos:depth`? Although requires jumping through some hoops   
+* TODO `hierarchical`: `false` ?
+* TODO: `levelType`
+
+* hierarchies
+* Tidy up mapping, etc

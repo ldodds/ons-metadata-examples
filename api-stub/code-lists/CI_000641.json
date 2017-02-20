@@ -1,0 +1,146 @@
+{
+  "id": "/code-lists/CI_000641",
+  "type": "ConceptScheme",
+  "name": "Special Aggregate",
+  "dct:type": "classification",
+  "skos:hasTopConcept": [
+    {
+      "id": "/code-lists/CI_000641/CI_0004331",
+      "skos:notation": "CI_0004331",
+      "type": "Concept",
+      "name": "01 Food and non-alcoholic beverages",
+      "skos:narrower": [
+        {
+          "id": "/code-lists/CI_000641/CI_0004217",
+          "skos:notation": "CI_0004217",
+          "type": "Concept",
+          "name": "01.1 Food",
+          "skos:narrower": [
+            {
+              "id": "/code-lists/CI_000641/CI_0004252",
+              "type": "Concept",
+              "skos:notation": "CI_0004252",
+              "name": "01.1.1 Bread and cereals"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004253",
+              "type": "Concept",
+              "skos:notation": "CI_0004253",
+              "name": "01.1.2 Meat"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004254",
+              "type": "Concept",
+              "skos:notation": "CI_0004254",
+              "name": "01.1.3 Fish"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004255",
+              "type": "Concept",
+              "skos:notation": "CI_0004255",
+              "name": "01.1.4 Milk"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004256",
+              "type": "Concept",
+              "skos:notation": "CI_0004256",
+              "name": "01.1.5 Oils and fats"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004257",
+              "type": "Concept",
+              "skos:notation": "CI_0004257",
+              "name": "01.1.6 Fruit"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004258",
+              "type": "Concept",
+              "skos:notation": "CI_0004258",
+              "name": "01.1.7 Vegetables including potatoes and tubers"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004259",
+              "type": "Concept",
+              "skos:notation": "CI_0004259",
+              "name": "01.1.8 Sugar, jam, syrups, chocolate and confectionery"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004260",
+              "type": "Concept",
+              "skos:notation": "CI_0004260",
+              "name": "01.1.9 Food products (nec)"
+            }
+          ]
+        },
+        {
+          "id": "/code-lists/CI_000641/CI_0004218",
+          "type": "Concept",
+          "skos:notation": "CI_0004218",
+          "name": "01.2 Non-alcoholic beverages",
+          "skos:narrower": [
+            {
+              "id": "/code-lists/CI_000641/CI_0004252",
+              "type": "Concept",
+              "skos:notation": "CI_0004252",
+              "name": "01.2.1 Coffee, tea and cocoa"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004253",
+              "type": "Concept",
+              "skos:notation": "CI_0004253",
+              "name": "01.2.2 Mineral waters, soft drinks and juices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/code-lists/CI_000641/CI_0004332",
+      "type": "Concept",
+      "name": "02 Alcoholic beverages and tobacco",
+      "skos:notation": "CI_0004332",
+      "skos:narrower": [
+        {
+          "id": "/code-lists/CI_000641/CI_0004219",
+          "type": "Concept",
+          "skos:notation": "CI_0004219",
+          "name": "02.1 Alcoholic beverages",
+          "skos:narrower": [
+            {
+              "id": "/code-lists/CI_000641/CI_0004263",
+              "type": "Concept",
+              "skos:notation": "CI_0004263",
+              "name": "02.1.1 Spirits"
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004264",
+              "type": "Concept",
+              "skos:notation": "CI_0004264",
+              "name": "02.1.2 Wine "
+            },
+            {
+              "id": "/code-lists/CI_000641/CI_0004265",
+              "type": "Concept",
+              "skos:notation": "CI_0004265",
+              "name": "02.1.3 Beer"
+            }
+          ]
+        },
+        {
+          "id": "/code-lists/CI_000641/CI_0004220",
+          "type": "Concept",
+          "skos:notation": "CI_0004220",
+          "name": "02.2 Tobacco",
+          "skos:narrower": [
+            {
+              "id": "/code-lists/CI_000641/CI_0004266",
+              "type": "Concept",
+              "skos:notation": "CI_0004266",
+              "name": "02.2.0 Tobacco"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

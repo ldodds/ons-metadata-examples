@@ -9,7 +9,7 @@
       "name": "Special aggregate",
       "qb:codeList": {
         "id": "/code-lists/...",
-        "skos:topConcept": [
+        "skos:hasTopConcept": [
           {
             "skos:notation": "FOOD0001",
             "name": "(01) Food and non-alcoholic beverages"
@@ -88,7 +88,7 @@
       "name": "Time",
       "qb:codeList": {
         "id": "/code-lists/...",
-        "skos:topConcept": [
+        "skos:hasTopConcept": [
           {
             "skos:notation": "OPT02",
             "name": "February 2013"
