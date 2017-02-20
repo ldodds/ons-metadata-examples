@@ -43,16 +43,18 @@
   ],
   "dimension": [
     {
-      "id": "SP00001",
+      "identifier": "SP00001",
       "name": "Special aggregate",
       "type": "Dimension",
-      "id": "/datasets/CPI15/dimensions/SP00001"
+      "id": "/datasets/CPI15/dimensions/SP00001",
+      "hierarchical": true
     },
     {
       "identifier": "T000111",
       "name": "Time",
       "type": "Dimension",
-      "id": "/datasets/CPI15/dimensions/T000111"
+      "id": "/datasets/CPI15/dimensions/T000111",
+      "hierarchical": true
     }
   ],
   "distribution": [

@@ -34,7 +34,15 @@
         "rdfs:comment": "Expected next release date for the dataset",
         "domain": "Dataset",
         "range": "xsd:date"
-      }
+      },
+      { 
+        "id": "ons:hierarchical",
+        "type": "owl:DatatypeProperty",
+        "rdfs:label": "hierarchical",
+        "rdfs:comment": "flag that indicates that values of a dimension are a hierarchy rather than a list",
+        "domain": "Dimension",
+        "range": "xsd:boolean"
+      }      
       
   ]
 }

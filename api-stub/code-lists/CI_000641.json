@@ -2,7 +2,7 @@
   "id": "/code-lists/CI_000641",
   "type": "ConceptScheme",
   "name": "Special Aggregate",
-  "dct:type": "classification",
+  "dc:type": "classification",
   "skos:hasTopConcept": [
     {
       "id": "/code-lists/CI_000641/CI_0004331",

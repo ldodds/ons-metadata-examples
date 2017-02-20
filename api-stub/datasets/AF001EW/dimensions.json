@@ -7,6 +7,7 @@
       "identifier": "D000123",
       "type": "Dimension",
       "name": "Age",
+      "hierarchical": false,
       "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
@@ -38,6 +39,7 @@
       "identifier": "D000124",
       "type": "Dimension",
       "name": "Residence Type",
+      "hierarchical": false,
       "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
@@ -60,6 +62,7 @@
       "id": "/datasets/AF001EW/dimensions/D000125",
       "identifier": "D000125",
       "type": "Dimension",
+      "hierarchical": false,
       "name": "Sex",
       "codeList": {
         "id": "/code-lists/...",
@@ -80,6 +83,7 @@
       "identifier": "D000126",    
       "type": "Dimension",
       "name": "2011 Statistical Geography Hierarchy",
+      "hierarchical": true,
       "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [

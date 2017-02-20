@@ -8,19 +8,19 @@
         "id": "/code-lists/TIME_001",
         "title": "Time",
         "type": "ConceptScheme",
-        "dct:type": "time"
+        "dc:type": "time"
       },
       {
         "id": "/code-lists/CI_000641",
         "title": "Special Aggregate",
         "type": "ConceptScheme",
-        "dct:type": "classification"
+        "dc:type": "classification"
       },
       {
         "id": "/code-lists/GOEO_001",
         "title": "Geography",
         "type": "ConceptScheme",        
-        "dct:type": "geography"
+        "dc:type": "geography"
       }    
   ],
   "hydra:view": {

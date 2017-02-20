@@ -7,6 +7,7 @@
       "identifier": "SP00001",
       "type": "Dimension",
       "name": "Special aggregate",
+      "hierarchical": true,
       "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [
@@ -86,6 +87,7 @@
       "identifier": "T000111",
       "type": "Dimension",
       "name": "Time",
+      "hierarchical": true,
       "codeList": {
         "id": "/code-lists/...",
         "skos:hasTopConcept": [

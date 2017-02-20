@@ -59,7 +59,7 @@ yet covered here.
 
 * `/datasets.json` -- Reorganised on the basis that the response is a paged view over the collection of datasets. This approach is used in [Hydra](http://www.hydra-cg.com/spec/latest/core/#collections).
 
-* `/code-lists` -- replaces `/hierarchies` with a more general name. Not all code lists used in dimensions are hierarchies, but they should all have a unique URI
+* `/code-lists` -- replaces `/hierarchies` with a more general name. Not all code lists used in dimensions are hierarchies, but they should all have a unique URI. This now also shares a common structure with `datasets.json` and there may need to be paging over both collections
 
 * `/ons-context.json` -- This is the JSON-LD context document that declares mapping of JSON keys to the URIs for the standard properties and types used in the data. This is referenced from every API response to ensure that the mapping is declared. The context can be updated to add new vocabularies, rename keys, etc. So, for example, there is scope to use locally preferred names in the document. But the default approach has been to use standard naming
 
@@ -74,29 +74,28 @@ yet covered here.
 
 ## Some issues to consider
 
+* At the moment am using `dct:type` to capture what was originally the `type` for hierarchies, etc E.g. "geography", "classification", etc. Am not clear where these are used in the Front End, so have just kept them in place but used more appropriate key name. 
+
+* Similarly, I wasn't clear on what `hierarchical: true` meant. I've added this as a custom property of a dimension for now, but might be better modelled differently. Strictly speaking its the code list associated with the dimension that is hierarchical not the dimension itself
+
 * Some properties, e.g. `temporal` are given as simple strings, but might be better if they were URIs, e.g. links to relevant items in the administrative geography
 
-* At the moment am using `dct:type` to capture what was originally the `type` for hierarchies, etc E.g. "geography", "classification", etc. Am not clear where these are used in the Front End, so have just kept them in place but used more appropriate key name. 
+* We're not using the Catalog type from DCAT here. We might want to have some properties to associate the dataset with the catalog
 
 * The website taxonomy could be exposed as a SKOS Concept Scheme too, e.g. under `/code-lists` or elsewhere. In this case the `theme` properties of the dataset could use the relevant URIs from that list.
 
-* There aren't any existing standards for search results/collections, although [Hydra has support for describing views](http://www.hydra-cg.com/spec/latest/core/#collections). Have used 
-that here. The main difference for list views is defining the response as a `Collection` with the paging parameters, etc as a `view` on that collection. Makes the semantics clearer, but keeps the essential items available.
+* There aren't any existing standards for search results/collections, although [Hydra has support for describing views](http://www.hydra-cg.com/spec/latest/core/#collections). I have used 
+that here. The main difference when representing list views in this way is typing the response as a `Collection` and then the the paging parameters and links are part of a `view` over that collection. Makes the semantics clearer, but keeps the essential items available. I've left the `hydra:` prefixes keys in place in `datasets.json` and `code-lists.json` to make this obvious.
 
-* Not clear what `hierarchical`: `false` is on dimensions?
-* Not clear what type is on dimension, e.g. "standard", "classification", "time". perhaps use role? or dct:type
+* I've not mapped all of the paging properties from the API. These would need some new terms defining (`startIndex`, `itemsPerPage`, `page`, `totalPages`) as custom ONS properties. But it's not clear if they're all really necessary anyway as the existing counts and links provide a means to page through the returned list
+
 
 ## Additional Notes
 
-* Hydra keys
-
-* TODO: add extra custom terms, e.g. for paging. New terms: `startIndex`, `itemsPerPage`, `page`, `totalPages`
 
 * TODO: `levelType`
 * TODO: hasTopConcept doesn't feel right, `xkos:belongsTo` is better
 * TODO: depth can be handled by `xkos:ClassificationLevel` and `xkos:depth`? Although requires jumping through some hoops   
 * TODO: XKOS terms for hierarchies http://www.ddialliance.org/Specification/RDF/XKOS
 
-* RightsStatement
 
-* Hydra + Catalog?

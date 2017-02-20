@@ -39,25 +39,29 @@
       "id": "/datasets/AF001EW/dimensions/D000123",
       "identifier": "D000123",
       "type": "Dimension",
-      "name": "Age" 
+      "name": "Age",
+      "hierarchical": false 
     },
     { 
       "id": "/datasets/AF001EW/dimensions/D000124",
       "identifier": "D000124",
       "type": "Dimension",
-      "name": "Residence Type" 
+      "name": "Residence Type",
+      "hierarchical": false
     },    
     { 
       "id": "/datasets/AF001EW/dimensions/D000125",
       "identifier": "D000125",
       "type": "Dimension",
-      "name": "Sex" 
+      "name": "Sex",
+      "hierarchical": false 
     },
     { 
       "id": "/datasets/AF001EW/dimensions/D000126",
       "identifier": "D000126",    
       "type": "Dimension",
-      "name": "2011 Statistical Geography Hierarchy" 
+      "name": "2011 Statistical Geography Hierarchy",
+      "hierarchical": true 
     }
   ],
  "distribution": [{

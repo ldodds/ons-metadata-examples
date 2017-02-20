@@ -118,16 +118,17 @@
         "@type": "@id"
     },
     "associatedPublications": {
-        "@id": "dct:related",
+        "@id": "dc:related",
         "@type": "@id"
     },
     "nationalStatistic": "ons:nationalStatistic",
-    "source": "dct:source",
+    "source": "dc:source",
     "dimension": "stat:dimension",
     "codeList": "qb:codeList",
     "notation": "skos:notation",
     "narrower": "skos:narrower",
-    "broader": "skos:broader"
+    "broader": "skos:broader",
+    "hierarchical": "ons:hierarchical"
   } 
 }
 

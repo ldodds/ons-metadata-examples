@@ -2,7 +2,7 @@
   "id": "/code-lists/TIME_001",
   "type": "ConceptScheme",
   "name": "Time",
-  "dct:type": "time",
+  "dc:type": "time",
   "skos:hasTopConcept": [
     {
       "id": "/code-lists/TIME_001/2015",
