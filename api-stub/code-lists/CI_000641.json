@@ -3,7 +3,7 @@
   "type": "ConceptScheme",
   "name": "Special Aggregate",
   "dc:type": "classification",
-  "skos:hasTopConcept": [
+  "inScheme": [
     {
       "id": "/code-lists/CI_000641/CI_0004331",
       "notation": "CI_0004331",

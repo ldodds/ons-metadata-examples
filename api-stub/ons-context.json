@@ -18,6 +18,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "vcard": "http://www.w3.org/2006/vcard/ns#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
     "hydra": "http://www.w3.org/ns/hydra/core#",
     "type": "@type",
     "id": "@id",
@@ -128,7 +129,14 @@
     "notation": "skos:notation",
     "narrower": "skos:narrower",
     "broader": "skos:broader",
-    "hierarchical": "ons:hierarchical"
+    "hierarchical": "ons:hierarchical",
+    "levelType": {
+        "@reverse": "skos:member"
+    },
+    "inScheme": {
+        "@reverse": "skos:inScheme"
+    },
+    "level": "xkos:depth"
   } 
 }
 

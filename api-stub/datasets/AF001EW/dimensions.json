@@ -10,7 +10,7 @@
       "hierarchical": false,
       "codeList": {
         "id": "/code-lists/...",
-        "skos:hasTopConcept": [
+        "inScheme": [
           {
             "notation": "DO000265",
             "name": "All categories: Age 16 and over"
@@ -42,7 +42,7 @@
       "hierarchical": false,
       "codeList": {
         "id": "/code-lists/...",
-        "skos:hasTopConcept": [
+        "inScheme": [
           {
             "notation": "DO000161",
             "name": "All categories: Residence Type"
@@ -66,7 +66,7 @@
       "name": "Sex",
       "codeList": {
         "id": "/code-lists/...",
-        "skos:hasTopConcept": [
+        "inScheme": [
           {
             "notation": "DO000153",
             "name": "Male"
@@ -86,7 +86,7 @@
       "hierarchical": true,
       "codeList": {
         "id": "/code-lists/...",
-        "skos:hasTopConcept": [
+        "inScheme": [
           {
             "notation": "K04000001",
             "name": "England and Wales"

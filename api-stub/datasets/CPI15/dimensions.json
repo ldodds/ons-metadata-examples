@@ -10,7 +10,7 @@
       "hierarchical": true,
       "codeList": {
         "id": "/code-lists/...",
-        "skos:hasTopConcept": [
+        "inScheme": [
           {
             "notation": "FOOD0001",
             "name": "(01) Food and non-alcoholic beverages"
@@ -90,7 +90,7 @@
       "hierarchical": true,
       "codeList": {
         "id": "/code-lists/...",
-        "skos:hasTopConcept": [
+        "inScheme": [
           {
             "notation": "OPT02",
             "name": "February 2013"

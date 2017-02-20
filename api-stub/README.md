@@ -74,7 +74,7 @@ yet covered here.
 
 ## Some issues to consider
 
-* At the moment am using `dct:type` to capture what was originally the `type` for hierarchies, etc E.g. "geography", "classification", etc. Am not clear where these are used in the Front End, so have just kept them in place but used more appropriate key name. 
+* At the moment am using `dc:type` to capture what was originally the `type` for hierarchies, etc E.g. "geography", "classification", etc. Am not clear where these are used in the Front End, so have just kept them in place but used more appropriate key name. 
 
 * Similarly, I wasn't clear on what `hierarchical: true` meant. I've added this as a custom property of a dimension for now, but might be better modelled differently. Strictly speaking its the code list associated with the dimension that is hierarchical not the dimension itself
 
@@ -89,13 +89,5 @@ that here. The main difference when representing list views in this way is typin
 
 * I've not mapped all of the paging properties from the API. These would need some new terms defining (`startIndex`, `itemsPerPage`, `page`, `totalPages`) as custom ONS properties. But it's not clear if they're all really necessary anyway as the existing counts and links provide a means to page through the returned list
 
-
-## Additional Notes
-
-
-* TODO: `levelType`
-* TODO: hasTopConcept doesn't feel right, `xkos:belongsTo` is better
-* TODO: depth can be handled by `xkos:ClassificationLevel` and `xkos:depth`? Although requires jumping through some hoops   
-* TODO: XKOS terms for hierarchies http://www.ddialliance.org/Specification/RDF/XKOS
-
+* The `levelType` used in the Time dimension has been mapping to some terms from XKOS that allow entries in a code list to be associated with a classification level. It's not clear if these are handled correctly at the moment. Currently all years and all months are in two collections. It may be that months in 2015 should be in a separate collection from those in 2016, for example.
 
