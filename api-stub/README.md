@@ -51,30 +51,28 @@ use the new structure.
 ## Important Changes
 
 * The `id` values have been given as relative URLs, but in the actual API they'd be fully-qualified
-* `/ons-context.json` -- The JSON-LD context document which declares mapping of JSON keys to the URIs for the standard properties and types used in the data. This is referenced from every API response to ensure that the mapping is declared. The context can be updated to add new vocabularies, rename keys, etc. So, for example, there is scope to use locally preferred names in the document. But the default approach has been to use standard naming
+
 * `/datasets.json` -- Reorganised on the basis that the response is a paged view over the collection of datasets. This approach is used in [Hydra](http://www.hydra-cg.com/spec/latest/core/#collections).
+
 * `/code-lists` -- replaces `/hierarchies` with a more general name. Not all code lists used in dimensions are hierarchies, but they should all have a unique URI
+
+* `/ons-context.json` -- This is the JSON-LD context document that declares mapping of JSON keys to the URIs for the standard properties and types used in the data. This is referenced from every API response to ensure that the mapping is declared. The context can be updated to add new vocabularies, rename keys, etc. So, for example, there is scope to use locally preferred names in the document. But the default approach has been to use standard naming
+
+* A custom ONS vocabulary has been defined to define some custom terms which aren't covered by existing vocabularies. These are defined in `/terms.json` as they should have a unique URI. Note that this declares entirely new properties whereas the context document maps JSON object keys to URIs. For example `methodology` and `associatedPublications` have been mapped to existing terms (`foaf:page` and `dct:related` respectively). Whereas `nationalStatistic` is a new property which is first defined in `terms.json` and then mapped to a simple name in the context.
 
 ## Open Issues
 
 * There aren't any existing standards for search results/collections, although [Hydra has support for describing views](http://www.hydra-cg.com/spec/latest/core/#collections). Have used 
 that here. The main difference for list views is defining the response as a `Collection` with the paging parameters, etc as a `view` on that collection. Makes the semantics clearer and but keeps the essential items available. But (for now) have ignored some terms: `startIndex`, `itemsPerPage`, `page`, `totalPages`
 
-* A custom ONS vocabulary has been defined to define some custom terms which aren't covered by existing vocabularies. These are defined in `/terms.json` as they should have a unique URI
-
-
 ## Additional Notes
 
 Context changes:
     
-* Added `hydra`
-* Added `associatedPublications` - might be better as dct:related than foaf:page?
-* Added `methodology` - can be mapped to foaf:page for now?
 * Using dct:type to capture the internal types, "geography", "classification", etc
 
 * TODO: add extra custom terms, e.g. for paging and short-cuts?
 * TODO: next release date
-* TODO: national statistics
 * TODO: XKOS terms for hierarchies http://www.ddialliance.org/Specification/RDF/XKOS
 * TODO: source, temporal, spatial mappings
 * TODO other short cuts

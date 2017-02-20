@@ -6,6 +6,7 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "odrs": "http://schema.theodi.org/odrs",
+    "ons": "/terms#",
     "org": "http://www.w3.org/ns/org#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "qb": "http://purl.org/linked-data/cube#",
@@ -108,9 +109,10 @@
         "@type": "@id"
     },
     "associatedPublications": {
-        "@id": "foaf:page",
+        "@id": "dct:related",
         "@type": "@id"
-    }
+    },
+    "nationalStatistic": "ons:nationalStatistic"
   } 
 }
 

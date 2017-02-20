@@ -1,0 +1,29 @@
+{ 
+  "@context": [ 
+      "/ons-context.jsonld",
+      {
+         "domain": { 
+             "@id": "rdfs:domain",
+             "@type": "@id"
+         },
+         "range": { 
+             "@id": "rdfs:range",
+             "@type": "@id"
+         }        
+    }
+  ],
+  "@id": "ons:",
+  "@type": "owl:Ontology",
+  "defines": [
+      { 
+        "id": "ons:nationalStatistic",
+        "type": "owl:DatatypeProperty",
+        "rdfs:label": "national statistic",
+        "rdfs:comment": "Indicates whether a Dataset is a national statistic",
+        "domain": "Dataset",
+        "range": "xsd:boolean"
+      }
+  ]
+}
+  
+  

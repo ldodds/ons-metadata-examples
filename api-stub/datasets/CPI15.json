@@ -5,6 +5,7 @@
   "identifier": "CPI15",
   "title": "Consumer Prices Index (COICOP)",
   "description": "Consumer Price Index statistics by Time and Special Aggregate (type of economic activity). This dataset shows the movement of prices over the last five years within the UK economy, broken down by month and various classifications of economic activity. The economic classifications are derived from the COICOP (Classification Of Individual Consumption by Purpose) list.",
+  "nationalStatistic": true,
   "issued": "2017-01-17",
   "language": "en",
   "keyword": ["consumer", "prices", "COICOP"],
