@@ -1,0 +1,107 @@
+{
+  "@context": "/ons-context.jsonld",
+  "id": "/datasets/AF001EW",
+  "dimension": [
+    { 
+      "id": "/datasets/AF001EW/dimensions/D000123",
+      "identifier": "D000123",
+      "type": "Dimension",
+      "name": "Age",
+      "hierarchical": false,
+      "codeList": {
+        "id": "/code-lists/...",
+        "inScheme": [
+          {
+            "notation": "DO000265",
+            "name": "All categories: Age 16 and over"
+          },
+          {
+            "notation": "DO000266",
+            "name": "Age 16 to 24"
+          },
+          {
+            "notation": "DO000267",
+            "name": "Age 25 to 34"
+          },
+          {
+            "notation": "DO000268",
+            "name": "Age 35 to 49"
+          },
+          {
+            "notation": "DO000269",
+            "name": "Age 50 and over"
+          }
+        ]
+      }         
+    },
+    { 
+      "id": "/datasets/AF001EW/dimensions/D000124",
+      "identifier": "D000124",
+      "type": "Dimension",
+      "name": "Residence Type",
+      "hierarchical": false,
+      "codeList": {
+        "id": "/code-lists/...",
+        "inScheme": [
+          {
+            "notation": "DO000161",
+            "name": "All categories: Residence Type"
+          },
+          {
+            "notation": "DO000162",
+            "name": "Lives in a household"
+          },
+          {
+            "notation": "DO000163",
+            "name": "Lives in a communal establishment"
+          }
+        ]
+      }        
+    },    
+    { 
+      "id": "/datasets/AF001EW/dimensions/D000125",
+      "identifier": "D000125",
+      "type": "Dimension",
+      "hierarchical": false,
+      "name": "Sex",
+      "codeList": {
+        "id": "/code-lists/...",
+        "inScheme": [
+          {
+            "notation": "DO000153",
+            "name": "Male"
+          },
+          {
+            "notation": "DO000154",
+            "name": "Female"
+          }
+        ]
+      } 
+    },
+    { 
+      "id": "/datasets/AF001EW/dimensions/D000126",
+      "identifier": "D000126",    
+      "type": "Dimension",
+      "name": "2011 Statistical Geography Hierarchy",
+      "hierarchical": true,
+      "codeList": {
+        "id": "/code-lists/...",
+        "inScheme": [
+          {
+            "notation": "K04000001",
+            "name": "England and Wales"
+          },
+          {
+            "notation": "E92000001",
+            "name": "England"
+          },
+          {
+            "notation": "W92000004",
+            "name": "Wales"
+          }
+        ]
+      }        
+    }
+  ]  
+}
+

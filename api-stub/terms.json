@@ -1,0 +1,50 @@
+{ 
+  "@context": [ 
+      "/ons-context.jsonld",
+      {
+         "defines": {
+             "@reverse": "rdfs:isDefinedBy"
+         },
+         "domain": { 
+             "@id": "rdfs:domain",
+             "@type": "@id"
+         },
+         "range": { 
+             "@id": "rdfs:range",
+             "@type": "@id"
+         }        
+    }
+  ],
+  "@id": "ons:",
+  "@type": "owl:Ontology",
+  "defines": [
+      { 
+        "id": "ons:nationalStatistic",
+        "type": "owl:DatatypeProperty",
+        "rdfs:label": "national statistic",
+        "rdfs:comment": "Indicates whether a Dataset is a national statistic",
+        "domain": "Dataset",
+        "range": "xsd:boolean"
+      },
+      { 
+        "id": "ons:nextReleaseDate",
+        "type": "owl:DatatypeProperty",
+        "rdfs:label": "next release date",
+        "rdfs:subPropertyOf": "dct:date",
+        "rdfs:comment": "Expected next release date for the dataset",
+        "domain": "Dataset",
+        "range": "xsd:date"
+      },
+      { 
+        "id": "ons:hierarchical",
+        "type": "owl:DatatypeProperty",
+        "rdfs:label": "hierarchical",
+        "rdfs:comment": "flag that indicates that values of a dimension are a hierarchy rather than a list",
+        "domain": "Dimension",
+        "range": "xsd:boolean"
+      }      
+      
+  ]
+}
+  
+  

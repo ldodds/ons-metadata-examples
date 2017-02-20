@@ -1,0 +1,35 @@
+{
+  "@context": "/ons-context.jsonld",
+  "id": "/code-lists",
+  "type": "hydra:Collection",
+  "hydra:totalItems": "3",
+  "hydra:member": [
+      {
+        "id": "/code-lists/TIME_001",
+        "title": "Time",
+        "type": "ConceptScheme",
+        "dc:type": "time"
+      },
+      {
+        "id": "/code-lists/CI_000641",
+        "title": "Special Aggregate",
+        "type": "ConceptScheme",
+        "dc:type": "classification"
+      },
+      {
+        "id": "/code-lists/GOEO_001",
+        "title": "Geography",
+        "type": "ConceptScheme",        
+        "dc:type": "geography"
+      }    
+  ],
+  "hydra:view": {
+    "id": "/code-lists?page=1",
+    "type": "hydra:PartialCollectionView",
+    "hydra:first": "/code-lists?page=1",
+    "hydra:previous": "",
+    "hydra:next": "/code-lists?page=2",
+    "hydra:last": "/code-lists?page=n"
+  } 
+}  
+

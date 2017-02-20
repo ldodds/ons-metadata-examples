@@ -1,0 +1,278 @@
+{
+  "@context": "/ons-context.jsonld",
+  "id": "/datasets/AF001EW",
+  "dimension": [
+    { 
+      "id": "/datasets/CPI15/dimensions/SP00001",
+      "identifier": "SP00001",
+      "type": "Dimension",
+      "name": "Special aggregate",
+      "hierarchical": true,
+      "codeList": {
+        "id": "/code-lists/...",
+        "inScheme": [
+          {
+            "notation": "FOOD0001",
+            "name": "(01) Food and non-alcoholic beverages"
+          },
+          {
+            "notation": "OPT02",
+            "name": "Food"
+          },
+          {
+            "notation": "OPT03",
+            "name": "Bread and cereals"
+          },
+          {
+            "notation": "OPT04",
+            "name": "Meat"
+          },
+          {
+            "notation": "OPT05",
+            "name": "Fish"
+          },
+          {
+            "notation": "OPT06",
+            "name": "Milk, cheese and eggs"
+          },
+          {
+            "notation": "OPT07",
+            "name": "Oils and fats"
+          },
+          {
+            "notation": "OPT08",
+            "name": "Fruit"
+          },
+          {
+            "notation": "HEALTH0002",
+            "name": "(02) Health"
+          },
+          {
+            "notation": "OPT02",
+            "name": "Medical products, appliances and equipment"
+          },
+          {
+            "notation": "OPT03",
+            "name": "Pharmaceutical products"
+          },
+          {
+            "notation": "OPT04",
+            "name": "Other medical and therapeutic equipment"
+          },
+          {
+            "notation": "OPT05",
+            "name": "Out-patient services"
+          },
+          {
+            "notation": "OPT06",
+            "name": "Medical services and paramedical services"
+          },
+          {
+            "notation": "OPT07",
+            "name": "Dental services"
+          },
+          {
+            "notation": "OPT08",
+            "name": "In-patient service"
+          },
+          {
+            "notation": "OPT09",
+            "name": "Medical and paramedic services"
+          }
+        ]
+      }         
+    },
+   { 
+      "id": "/datasets/CPI15/dimensions/T000111",
+      "identifier": "T000111",
+      "type": "Dimension",
+      "name": "Time",
+      "hierarchical": true,
+      "codeList": {
+        "id": "/code-lists/...",
+        "inScheme": [
+          {
+            "notation": "OPT02",
+            "name": "February 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "March 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "April 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "May 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "June 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "July 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "August 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "September 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "October 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "November 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "December 2013"
+          },
+          {
+            "notation": "OPT02",
+            "name": "January 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "February 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "March 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "April 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "May 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "June 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "July 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "August 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "September 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "October 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "November 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "December 2014"
+          },
+          {
+            "notation": "OPT02",
+            "name": "January 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "February 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "March 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "April 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "May 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "June 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "July 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "August 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "September 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "October 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "November 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "December 2015"
+          },
+          {
+            "notation": "OPT02",
+            "name": "January 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "February 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "March 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "April 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "May 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "June 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "July 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "August 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "September 2016"
+          },
+          {
+            "notation": "OPT02",
+            "name": "October 2016"
+          }        
+        ]
+      }  
+    }      
+  ]
+}

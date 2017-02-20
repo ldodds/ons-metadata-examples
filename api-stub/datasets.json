@@ -1,0 +1,94 @@
+{
+  "@context": "/ons-context.jsonld",
+  "id": "/datasets",
+  "type": "hydra:Collection",
+  "hydra:totalItems": "2",
+  "hydra:member": [
+    {
+     "id": "/datasets/AF001EW",
+     "type": "Dataset",
+     "identifier": "AF001EW",
+     "title": "Members of the Armed Forces by residence type by sex by age",
+     "description": "This dataset provides 2011 Census estimates that classify usual residents aged 16 and over who are members of the armed forces by residence type (household or communal resident), by sex and by age. The estimates are as at census day, 27 March 2011. To protect the confidentiality of individuals personal information, this dataset provides data only for districts that have a minimum of 150 armed forces members (224 districts in total).",
+     "nationalStatistic": true,
+     "issued": "2015-06-03",
+     "nextReleaseDate": null,
+     "language": "en",
+     "keyword": ["armed forces", "sex", "age"],
+     "publisher": {
+        "type": "Organization",
+        "name": "Office of National Statistics",
+        "homepage": "https://www.ons.gov.uk/"
+     },
+     "contactPoint": {
+          "name": "Alexa Bradley",
+          "email": "pop.info@ons.gsi.gov.uk",
+          "tel": "+44 (0)1329 444972"
+     },
+     "accessRights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html"
+     },
+     "landingPage": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+     "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
+     "source": "2011 Census",
+     "temporal": "2011",
+     "spatial": "National, sub-national, England and Wales"
+    },
+    {
+     "id": "/datasets/CPI15",
+     "type": "Dataset",
+     "identifier": "CPI15",
+     "title": "Consumer Prices Index (COICOP)",
+     "description": "Consumer Price Index statistics by Time and Special Aggregate (type of economic activity). This dataset shows the movement of prices over the last five years within the UK economy, broken down by month and various classifications of economic activity. The economic classifications are derived from the COICOP (Classification Of Individual Consumption by Purpose) list.",
+     "nationalStatistic": true,
+     "issued": "2017-01-17",
+     "nextReleaseDate": "2017-02-14",
+     "language": "en",
+     "keyword": ["consumer", "prices", "COICOP"],
+     "publisher": {
+        "type": "Organization",
+        "name": "Office of National Statistics",
+        "homepage": "https://www.ons.gov.uk/"
+     },
+     "contactPoint": {
+        "name": "James Tucker",
+        "email": "cpi@ons.gsi.gov.uk",
+        "tel": "+44 (0)1633 456900"
+     },
+     "accessRights": {
+        "dataLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "contentLicence": "http://www.nationalarchives.gov.uk/doc/open-government-licence",
+        "attributionText": "Contains public sector information licensed under the Open Government Licence v3.0",
+        "copyrightNotice": "Crown Copyright",
+        "reuserGuidelines": "https://www.ons.gov.uk/help/termsandconditions",    
+        "attributionLink": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation"
+     },
+     "accrualPeriodicity": "http://purl.org/linked-data/sdmx/2009/code#freq-M",
+     "landingPage": "https://onsdigital.github.io/dp-ux-prototypes/dist/sprint-06-dataset/dataset.html",
+     "theme": "https://www.ons.gov.uk/economy/inflationandpriceindices",
+     "methodology": {
+        "id": "https://www.ons.gov.uk/economy/inflationandpriceindices/qmis/consumerpriceinflationqmi",
+        "title": "Consumer Price Inflation (includes all 4 indices—CPI, CPIH, RPI and RPIJ)"
+     },
+     "associatedPublications": [
+          "http://localhost:20099/datasets/AF002",
+          "http://localhost:20099/datasets/AF003",
+          "http://localhost:20099/datasets/AF004"
+     ]
+    }    
+  ],
+  "hydra:view": {
+    "id": "/datasets?page=1",
+    "type": "hydra:PartialCollectionView",
+    "hydra:first": "/datasets?page=1",
+    "hydra:previous": "",
+    "hydra:next": "/datasets?page=2",
+    "hydra:last": "/datasets?page=n"
+  } 
+}
+
