@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    "../ons-context.jsonld"
+    ],
+  "url": "simple-example.csv",
+  "title": "AF001EW  Members of the Armed Forces by residence type by sex by age",
+  "description": "Lorem ipsum...",
+  "contact": {
+      "name": "Alexa Bradley",
+      "email": "pop.info@ons.gsi.gov.uk",
+      "phone": "+44 (0)1329 444972"
+    },
+  "releaseDate": "23 May 2014",
+  "nextReleaseDate": "To be announced",
+  "nationalStatistics": true,      
+  "tableSchema": {
+    "columns": [{
+        "titles": "Geographic Area",
+        "title": "",
+        "url": "http://localhost:20099/datasets/1234/dimensions/2011STATH",
+        "required": true    
+    }, {
+        "titles": "Year",
+        "url": "http://localhost:20099/datasets/1234/dimensions/year",
+        "required": true    
+    }, {
+        "titles": "Value",        
+        "required": true    
+    }, {
+        "titles": "Data Marking",
+        "url": "http://localhost:20099/datasets/1234/attributes/data-marking"
+    }, {
+        "titles": "Quality Metric",
+        "url": "http://localhost:20099/datasets/1234/attributes/quality-metric"
+    }
+    ]
+  }
+}
+
