@@ -12,16 +12,18 @@
       "phone": "+44 (0)1329 444972"
     },
   "releaseDate": "23 May 2014",
-  "nextReleaseDate": "To be announced",
   "nationalStatistics": true,      
   "tableSchema": {
     "columns": [{
         "titles": "Geographic Area",
-        "title": "",
+        "description": "Geographic area from 2011 Statistical Hierarchy",    
         "url": "http://localhost:20099/datasets/1234/dimensions/2011STATH",
         "required": true    
     }, {
-        "titles": "Year",
+        "titles": { 
+            "en": "Year",
+            "cy": "Blwyddyn",
+        },
         "url": "http://localhost:20099/datasets/1234/dimensions/year",
         "required": true    
     }, {
@@ -35,6 +37,17 @@
         "url": "http://localhost:20099/datasets/1234/attributes/quality-metric"
     }
     ]
-  }
+  },
+  "notes": [{
+    "type": "Annotation",
+    "target": "simple-example.csv#row=4",
+    "body": "Data from Powys has been corrected",
+    "motivation": "commenting"
+  }, {
+    "type": "Annotation",
+    "target": "simple-example.csv#col=5",
+    "body": "Consult the quality & methodology docs for notes on calculation of CV values",
+    "motivation": "commenting"
+  }]
 }
 
