@@ -1,18 +1,8 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/csvw",
-    "../ons-context.jsonld"
-    ],
+  "@context": "http://www.w3.org/ns/csvw",
   "url": "simple-example.csv",
   "title": "AF001EW  Members of the Armed Forces by residence type by sex by age",
   "description": "Lorem ipsum...",
-  "contact": {
-      "name": "Alexa Bradley",
-      "email": "pop.info@ons.gsi.gov.uk",
-      "phone": "+44 (0)1329 444972"
-    },
-  "releaseDate": "23 May 2014",
-  "nationalStatistics": true,      
   "tableSchema": {
     "columns": [{
         "titles": "Geographic Area",
